@@ -41,7 +41,7 @@
   line-height: 50px;
   font-weight: 700;
   color: var(--color-primary);
-  display: -webkit-box;
+  display: box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -52,7 +52,7 @@
   font-size: 22px;
   line-height: 26px;
   color: var(--color-primary);
-  display: -webkit-box;
+  display: box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;

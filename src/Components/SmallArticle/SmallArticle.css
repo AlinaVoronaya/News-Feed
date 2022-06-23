@@ -15,7 +15,7 @@
   font-size: 20px;
   line-height: 24px;
   color: var(--color-primary);
-  display: -webkit-box;
+  display: box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
