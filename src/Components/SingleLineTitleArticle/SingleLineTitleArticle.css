@@ -1,4 +1,5 @@
 .single-line-title-article {
+  display: block;
   cursor: pointer;
 }
 
@@ -25,7 +26,7 @@
 
 .single-line-title-article__text {
   margin-bottom: 15px;
-  display: box;
+  display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;

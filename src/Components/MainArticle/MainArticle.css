@@ -1,13 +1,17 @@
 .main-article {
   margin-bottom: 95px;
-  display: grid;
-  grid-template-columns: repeat(9, var(--grid-column-width));
-  gap: var(--grid-gap);
   cursor: pointer;
+  display: block;
 }
 
 .main-article:last-child {
   margin-bottom: 0;
+}
+
+.main-article__container {
+  display: grid;
+  grid-template-columns: repeat(9, var(--grid-column-width));
+  gap: var(--grid-gap);
 }
 
 .main-article__image-container {
@@ -30,7 +34,6 @@
   padding-right: 63px;
 }
 
-/* TODO: ВЫПИЛИТЬ НАВЕРНОЕ */
 .main-article__category {
   margin-bottom: 7px;
 }
@@ -41,7 +44,7 @@
   line-height: 50px;
   font-weight: 700;
   color: var(--color-primary);
-  display: box;
+  display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -52,7 +55,7 @@
   font-size: 22px;
   line-height: 26px;
   color: var(--color-primary);
-  display: box;
+  display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
