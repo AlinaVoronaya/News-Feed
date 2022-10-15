@@ -18,4 +18,4 @@ npm run build
 ```
 
 ### GitHub Pages
-https://alinavoronaya.github.io/newsfeed/
+https://alinavoronaya.github.io/News-Feed/
